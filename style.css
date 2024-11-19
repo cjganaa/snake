@@ -1,0 +1,13 @@
+#board{
+    margin: 30px auto;
+    background-color: greenyellow ;
+    position: relative;
+}
+.snake{
+    position: absolute;
+    background-color: green;
+    border-radius: 10px;
+}
+.controller{
+    text-align: center;
+}
