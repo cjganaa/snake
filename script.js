@@ -6,9 +6,9 @@ let intervalId;
 let score = 0;
 
 const config = {
-    size: 60,
-    width: 30,
-    height: 16,
+    size: 20,
+    width: 40,
+    height: 40,
 }
 
 let food = {x:Math.floor(Math.random() * config.width), y:Math.floor(Math.random() * config.height)};
@@ -65,7 +65,7 @@ function lastTail(){
 
 function startGame() {
     if (!intervalId) {
-      intervalId = setInterval(gameloop, 100);
+      intervalId = setInterval(gameloop, 50);
     }
 }
 function pauseGame(){
